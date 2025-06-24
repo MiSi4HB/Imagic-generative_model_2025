@@ -39,7 +39,7 @@ pip install -e git+https://github.com/openai/CLIP.git@main#egg=clip
 ```
 
 ### 4. Stable-diffusion 모델 weights 다운로드
-7GB 정도의 크기 (다운로드시 오래걸림)
+7GB 정도의 크기
 ```bash
 wget -O models/ldm/sd-v1-4-full-ema.ckpt https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4-full-ema.ckpt
 ```
