@@ -6,13 +6,13 @@
 
 ---
 
-![Figure 1](image/fig1)
+![Figure 1](images/fig1)
 
 ---
 
 # 📌 Notice
-##### Diffusion 기반 text prompts image editing method인 Imagic 구현
-##### [justinpinkney/stable-diffusion](https://github.com/justinpinkney/stable-diffusion)기반으로 코드 구현
+> This repository is based on [justinpinkney/stable-diffusion](https://github.com/justinpinkney/stable-diffusion) and adapted for implementing the **Imagic** framework (CVPR 2022).
+
 ---
 
 # 🛠️ Getting Started
@@ -38,13 +38,13 @@ pip install -r requirement.txt
 pip install -e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
 pip install -e git+https://github.com/openai/CLIP.git@main#egg=clip
 ```
-## 💥
-만약 코드 실행 중 clip, taming 못찾을 때는 호출하는 코드의 시작 부분에 경로 추가
-경로 확인 코드
+## 💥Module Import Error
+코드 실행 중 clip, taming 못찾을 때는 호출하는 코드의 시작 부분에 경로 추가
+1. Check installed location:
 ```bash
 !pip show clip 
 ```
-경로 추가
+2. Add path manually at the top of your script:
 ```
 import sys
 sys.path.append('Location path/clip') #경로 추가
