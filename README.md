@@ -39,7 +39,7 @@ pip install -e git+https://github.com/CompVis/taming-transformers.git@master#egg
 pip install -e git+https://github.com/openai/CLIP.git@main#egg=clip
 ```
 ## 🔨 Imagic 사용하기
-jupyter notebook 환경 구축하여 `notebooks/imagic.ipynb` 파일을 실행하여 Imagic을 사용
+jupyter notebook에서 `notebooks/imagic.ipynb` 파일을 실행하여 Imagic을 사용
 > 원본 이미지와 텍스트 프롬프트를 입력하면 Imagic이 자동으로 이미지를 편집
 
 ```bash
