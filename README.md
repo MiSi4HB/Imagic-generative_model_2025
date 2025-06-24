@@ -57,7 +57,6 @@ import clip
 
 # 🎨 Results
 
-| Original Image | Generated Result |
+| Original Image | "A photo of Barack Obama smiling with a big grin" |
 |:--------------:|:----------------:|
 | ![Original](images/Obama.jpg) | ![Result](images/Obama_smile.png) |
-| **Original Image** | **"A photo of Barack Obama smiling with a big grin"** |
