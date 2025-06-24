@@ -6,7 +6,7 @@
 
 ---
 
-![Figure 1](images/fig1.png)
+![Figure 1](Images/fig1.png)
 
 ---
 
@@ -59,4 +59,4 @@ import clip
 
 | Original Image | "A photo of Barack Obama smiling with a big grin" |
 |:--------------:|:----------------:|
-| ![Original](images/Obama.jpg) | ![Result](images/Obama_smile.png) |
+| ![Original](Images/Obama.jpg) | ![Result](Images/Obama_smile.png) |
