@@ -12,7 +12,7 @@
 
 # 📌 Notice
 > This repository is based on [justinpinkney/stable-diffusion](https://github.com/justinpinkney/stable-diffusion) and adapted for implementing the **Imagic** framework (CVPR 2022).
-
+> 이 프로젝트는 A100 GPU 서버에서 테스트되었습니다.
 ---
 
 # 🛠️ Getting Started
@@ -39,11 +39,17 @@ pip install -e git+https://github.com/CompVis/taming-transformers.git@master#egg
 pip install -e git+https://github.com/openai/CLIP.git@main#egg=clip
 ```
 ## 🔨 Imagic 사용하기
-`notebooks/imagic.ipynb` 파일을 실행하여 Imagic을 사용
+jupyter notebook 환경 구축하여 `notebooks/imagic.ipynb` 파일을 실행하여 Imagic을 사용
+> 원본 이미지와 텍스트 프롬프트를 입력하면 Imagic이 자동으로 이미지를 편집
+
+```bash
+input_image = "path/to/your/image.jpg"
+prompt = "A photo of Barack Obama smiling with a big grin"
+```
 
 ### Module Import Error
 코드 실행 중 `clip`, `taming` 모듈을 찾을 수 없다는 오류가 발생할 때:
-1. 설치된 모듈 위치 확:
+1. 설치된 모듈 위치 확인:
 ```bash
 !pip show clip 
 ```
