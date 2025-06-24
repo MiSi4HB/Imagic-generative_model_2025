@@ -12,8 +12,8 @@
 
 # 📌 Notice
 
-Diffusion 기반 텍스트 프롬프트에 따른 image editing method   
-[justinpinkney/stable-diffusion](https://github.com/justinpinkney/stable-diffusion)기반으로 코드 구현
+
+#### Diffusion 기반 텍스트 프롬프트에 따른 image editing method [justinpinkney/stable-diffusion](https://github.com/justinpinkney/stable-diffusion)기반으로 코드 구현
 ---
 
 # 🛠️ Getting Started
