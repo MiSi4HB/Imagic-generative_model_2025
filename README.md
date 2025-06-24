@@ -38,19 +38,20 @@ pip install -r requirement.txt
 pip install -e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
 pip install -e git+https://github.com/openai/CLIP.git@main#egg=clip
 ```
-## 💥Module Import Error
-코드 실행 중 clip, taming 못찾을 때는 호출하는 코드의 시작 부분에 경로 추가
-1. Check installed location:
+## 🔨 Imagic 사용하기
+`notebooks/imagic.ipynb` 파일을 실행하여 Imagic을 사용
+
+### Module Import Error
+코드 실행 중 `clip`, `taming` 모듈을 찾을 수 없다는 오류가 발생할 때:
+1. 설치된 모듈 위치 확:
 ```bash
 !pip show clip 
 ```
-2. Add path manually at the top of your script:
+2. 경로 수동 추가:
 ```
 import sys
 sys.path.append('Location path/clip') #경로 추가
 
 import clip
 ```
-# 🚗 Results
-
 
