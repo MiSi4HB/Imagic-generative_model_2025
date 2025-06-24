@@ -37,6 +37,13 @@ pip install -r requirement.txt
 pip install -e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
 pip install -e git+https://github.com/openai/CLIP.git@main#egg=clip
 ```
+
+### 4. Stable-diffusion 모델 weights 다운로드
+7GB 정도의 크기 (다운로드시 오래걸림)
+```bash
+wget -O models/ldm/sd-v1-4-full-ema.ckpt https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4-full-ema.ckpt
+```
+
 ## 🔨 Imagic 사용하기
 jupyter notebook에서 `notebooks/imagic.ipynb` 파일을 실행하여 Imagic을 사용
 > 원본 이미지와 텍스트 프롬프트를 입력하면 Imagic이 자동으로 이미지를 편집
