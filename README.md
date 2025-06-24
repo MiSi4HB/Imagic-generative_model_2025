@@ -12,11 +12,10 @@
 
 # 📌 Notice
 > This repository is based on [justinpinkney/stable-diffusion](https://github.com/justinpinkney/stable-diffusion) and adapted for implementing the **Imagic** framework (CVPR 2022).
-> 이 프로젝트는 A100 GPU 서버에서 테스트되었습니다.
 ---
 
 # 🛠️ Getting Started
-
+> 이 프로젝트는 A100 GPU 서버에서 테스트되었습니다.
 ## 🧩 Installation
 ### 1. 참고한 github 복제 및 이동
 ```bash
