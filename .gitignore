@@ -14,4 +14,21 @@ logs
 .vscode/
 im-examples/
 datasets
-scratch/
+scratch/# 모델 파일 제외
+models/ldm/sd-v1-4-full-ema.ckpt
+
+# 다른 모델 파일들도 제외 (혹시 있다면)
+*.ckpt
+*.pth
+*.bin
+*.safetensors
+
+# 기타 제외할 파일들
+__pycache__/
+*.pyc
+.env
+*.log
+.DS_Store
+.vscode/
+.idea/
+

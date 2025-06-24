@@ -6,6 +6,8 @@ import kornia
 
 from ldm.modules.x_transformer import Encoder, TransformerWrapper  # TODO: can we directly rely on lucidrains code and simply add this as a reuirement? --> test
 from ldm.util import default
+import sys
+sys.path.append('/mnt/shared_disk1/aiml_hbms/stable-diffusion/src/clip')
 import clip
 
 
