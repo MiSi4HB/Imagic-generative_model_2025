@@ -6,7 +6,7 @@
 
 ---
 
-![Figure 1](images/fig1)
+![Figure 1](images/fig1.png)
 
 ---
 
@@ -55,3 +55,9 @@ sys.path.append('Location path/clip') #경로 추가
 import clip
 ```
 
+# 🎨 Results
+
+| Original Image | Generated Result |
+|:--------------:|:----------------:|
+| ![Original](images/Obama.jpg) | ![Result](images/Obama_smile.png) |
+| **Original Image** | **"A photo of Barack Obama smiling with a big grin"** |
